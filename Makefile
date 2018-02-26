@@ -28,9 +28,9 @@ APP_LOAD_PARAMS = --appFlags 0x00 $(COMMON_LOAD_PARAMS)
 
 #prepare hsm generation
 ifeq ($(TARGET_NAME),TARGET_BLUE)
-ICONNAME=steem-blue.png
+ICONNAME=steem-blue.gif
 else
-ICONNAME=steem-ledger.png
+ICONNAME=steem-ledger.gif
 endif
 
 # Build configuration
